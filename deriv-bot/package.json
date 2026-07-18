@@ -1,0 +1,21 @@
+{
+  "name": "deriv-trading-bot",
+  "version": "1.0.0",
+  "description": "Automated trading bot for Deriv API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "node test.js"
+  },
+  "keywords": ["deriv", "trading", "bot", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
